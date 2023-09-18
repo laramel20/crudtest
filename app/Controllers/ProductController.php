@@ -12,7 +12,7 @@ class ProductController extends BaseController
     }
     public function laramel20()
     {
-        echo 'working';
+        return view('products');
     }
     public function index()
     {
